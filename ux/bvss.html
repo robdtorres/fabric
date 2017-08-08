@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>BVSS</title>
+
+  <!-- FontAwesome, Baby! -->
+  <link href="../Site/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Bootstrap, baby! -->
+  <link href="../Site/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- MDB, baby! -->
+  <link href="../Site/css/mdb.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/bvss-gmi/theme.css">
+  <link rel="stylesheet" href="css/bvss-gmi/theme-vars.css">
+  <link rel="stylesheet" href="css/bvss-gmi/desktop.css">
+  <link rel="stylesheet" href="css/bvss-gmi/tablet.css">
+  <link rel="stylesheet" href="css/bvss-gmi/mobile.css">
+  <link rel="stylesheet" href="css/bvss-gmi/print.css">
+
+  <!-- CSS specific for this page, don't carry over -->
+  <style>
+    body {
+      margin: 0;
+      font-family: Oxygen,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 12px;
+      line-height: 15px;
+      color: #333;
+      background-color: #fff;
+    }
+    .bvss-bkgd {
+      background: #f5f5f5;
+      padding: 20px;
+      width: 540px;
+      margin: 20px 0;
+    }
+    .preview-image {
+      max-height: 200px;
+      box-shadow: 5px 5px 3px #ccc;
+      border: 1px solid #ddd;
+    }
+</style>
+
+<!-- BVSS Login Page Tweaks -->
+<style>
+    /* Make checkboxes go full width */
+    .form-inline .rql-group:not(.control-group-reset),
+    .form-inline .control-group:not(.control-group-reset) {
+      float: none;
+    }
+    label.radio,
+    label.checkbox {
+      width: 100%;
+    }
+    /* Adjust styling to required filed labels */
+    .desktop .control-group.error .help-inline,
+    .tablet .control-group.error .help-inline,
+    .list .help-inline,
+    .form-inline .help-inline {
+      background: none!important;
+    }
+    .desktop .control-group.error .help-inline,
+    .tablet .control-group.error .help-inline {
+      padding: 0;
+    }
+    .list .help-inline,
+    .form-inline .help-inline {
+      padding: 0;
+    }
+    .help-inline {
+      padding-left: 0;
+    }
+    /* Stepped T&C/EULA */
+    .stepcontainer {
+      position: relative;
+      text-align: center;
+    }
+    .step {
+      display: inline-block;
+      margin: 0 10px;
+      background-color: #ccc; /* TBD */
+      color: #999; /* @grayLight; */
+      font-size: 16px;
+      text-align: center;
+      line-height: 32px;
+      height: 32px;
+      width: 32px;
+      -moz-border-radius: 16px;
+      -webkit-border-radius: 16px;
+    }
+    .step.active {
+      background-color: #0053A1; /* @primaryColor */
+      color: #fff; /* @white; */
+    }
+    .stepcontainer h4 {
+      /* margin: 10px 0; */
+      color: ##555555; /* @gray; */
+      text-align: center;
+    }
+
+    /* Vertically Center */
+    .vertical-center-content {
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform:  translateY(-50%);
+    }
+
+  </style>
+
+</head>
+<body>
+
+<div style="margin: 20px auto; width: 800px;">
+  <img src="images/bvss/logo.png">
+</div>
+
+
+
+<!-------------------------------------------------->
+<hr style="margin: 20px auto 80px auto; width: 800px;">
+
+
+
+<!-- BVSS Login Page Tweaks -->
+<div style="margin: 20px auto; width: 800px;">
+  <h1>Add Steps to User Terms</h1>
+  <p>&nbsp;</p>
+  <div class="bvss-bkgd">
+    <div class="stepcontainer">
+      <h4>ComplianceMetrix, LLC End User Subscription TERMS<br />
+      <small>1 of 3</small></h4>
+    </div>
+  </div>
+
+
+
+<!-------------------------------------------------->
+<hr style="margin: 20px auto 80px auto; width: 800px;">
+
+
+
+<!-- BVSS Login Page Tweaks -->
+<div style="margin: 20px auto; width: 800px;">
+  <h1>Add Steps to User Terms</h1>
+  <p>&nbsp;</p>
+  <div class="bvss-bkgd">
+    <!-- BEGIN HTML Snippet -->
+    <div class="stepcontainer">
+      <div class="step active">1</div>
+      <div class="step">2</div>
+      <div class="step">3</div>
+      <h4>ComplianceMetrix, LLC End User Subscription TERMS</h4>
+    </div>
+    <!-- END HTML Snippet -->
+  </div>
+  <h2>Other Notes:</h2>
+  <ul>
+    <li>Remove span6 div in language dropdown globally.</li>
+  </ul>
+</div>
+
+
+
+<!-------------------------------------------------->
+<hr style="margin: 80px auto; width: 800px;">
+
+
+
+<!-- BVSS Password Page Tweaks -->
+<div style="margin: 0 auto; width: 800px;">
+
+  <h1>Password Change Tweaks</h1>
+  <p>&nbsp;</p>
+
+  <h2>Default password change messaging changes from:</h2>
+  <p><a href="images/bvss/02-password-reset.png" target="_blank">
+    <img src="images/bvss/02-password-reset.png" class="preview-image"></a>
+  </p>
+
+  <p>&nbsp;</p>
+
+  <h2>To this screen upon landing on it:</h2>
+  <p><a href="images/bvss/02-fix1-password-reset-default.png" target="_blank">
+    <img src="images/bvss/02-fix1-password-reset-default.png" class="preview-image"></a>
+  </p>
+
+  <p>&nbsp;</p>
+
+  <h2>Then show revised error messaging only when user enters and submits a bad password:</h2>
+  <p><a href="images/bvss/02-fix2-password-reset-error.png" target="_blank">
+    <img src="images/bvss/02-fix2-password-reset-error.png" class="preview-image"></a>
+  </p>
+
+</div>
+
+
+
+<!-------------------------------------------------->
+<hr style="margin: 80px auto; width: 800px;">
+
+
+
+<!-- Vertical Center Test -->
+<div style="margin: 0 auto; width: 800px; border: 1px solid #ccc;" class="container">
+
+    <div class="row" style="height: 200px;">
+        <div class="col-md-6">
+
+            <div class="vertical-center-content">
+                <div><label>Please select the latest Audit Body that performed the audit:<span class="required-label">*</span></label>
+                    <div>
+                        <select>
+                            <!-- div class="rql-control" rql-type="dropdownlist" rql-id2="Recent_Audit_CB" rql-custom="yes" rql-control="yes" id="r149496016567488653">
+                                <div class="control-group" rql-controlgroup="yes"><label for="r149496016567488653" class="control-label ">Please select the latest Audit Body that performed the audit:<span class="required-label">*</span></label>
+                                    <div class=" controls " rql-required="yes" rql-focusable="yes">
+                                        <select name="Recent_Audit_CB" rql-id="Recent_Audit_CB" class="browser-default width-auto" rql-required="yes" rql-dynamic="Yes" rql-action="update" -->
+                            <option value="">(select)</option>
+                            <option value="ABS Quality Evaluations, Inc.">ABS Quality Evaluations, Inc.</option>
+                            <option value="Accordia">Accordia</option><option value="ALGI">ALGI</option>
+                            <option value="AsiaInspection (AI)">AsiaInspection (AI)</option>
+                            <option value="BSI Group">BSI Group</option><option value="Bureau Veritas">Bureau Veritas</option>
+                            <option value="Centre Testing International Corporation">Centre Testing International Corporation</option>
+                            <option value="CSR Solutions">CSR Solutions</option><option value="DNV GL">DNV GL</option>
+                            <option value="DQS CFS">DQS CFS</option><option value="Elevate">Elevate</option>
+                            <option value="Extensive Standard Technical Services Co., Ltd.">Extensive Standard Technical Services Co., Ltd.</option>
+                            <option value="Globalgroup Certification Limited">Globalgroup Certification Limited</option>
+                            <option value="Intertek">Intertek</option><option value="KSSA">KSSA</option><option value="Leverage Limited">Leverage Limited</option>
+                            <option value="Other">Other</option><option value="Partner Africa (formerly Africa Now)">Partner Africa (formerly Africa Now)</option>
+                            <option value="QMSCERT">QMSCERT</option><option value="Reassurance Network">Reassurance Network</option><option value="RINA">RINA</option>
+                            <option value="SGS">SGS</option><option value="SIPAS CR – Peru">SIPAS CR – Peru</option><option value="SMT Global">SMT Global</option>
+                            <option value="TÜV Rheinland">TÜV Rheinland</option><option value="TÜV SÜD">TÜV SÜD</option>
+                            <option value="UL">UL</option><option value="Verisio">Verisio</option><option value="Wieta">Wieta</option>
+                            <option value="WRAP">WRAP</option>
+                        </select>
+                        <span class="help-inline small pos-abs margin-lr-sm" rql-role="validation-error">Required field.</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-6">
+
+            <div class="vertical-center-content">
+                <div>
+                    <div>
+                        <div>
+                            <div>
+            <!-- div class="form-horizontal margin-lr-sm">
+                <div class="row-fluid">
+                    <div class="rql-control" rql-type="checkbox" rql-id2="CB_Not_Found" rql-custom="yes" rql-control="yes" id="r149496016567894625">
+                        <div class="control-group" rql-controlgroup="yes">
+                            <div class=" controls " rql-focusable="yes" -->
+                                <div class="block">
+                                    <label class="checkbox">
+                                        <input type="checkbox">
+                                        <!-- input type="checkbox" rql-id="CB_Not_Found" id="r149496016567894625" name="CB_Not_Found" rql-value="true" rql-action="update" -->
+                                        <span class="value nowrap">I did not find the Audit Body</span>
+                                    </label>
+                                    <span class="help-inline small pos-abs margin-lr-sm" rql-role="validation-error">Required field.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+<!-------------------------------------------------->
+<hr style="margin: 80px auto; width: 800px;">
+
+
+
+</body>
+</html>

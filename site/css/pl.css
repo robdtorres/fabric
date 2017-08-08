@@ -1,0 +1,95 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+/* Intro */
+.view {
+  background: url("../images/background-medium.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media (max-width: 768px) {
+  .full-bg-img, .view {
+      height: auto;
+      position: relative;
+  }
+}
+.description {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #fff
+}
+@media (max-width: 992px) {
+  .description {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      /* text-align: center; */
+  }
+  /* #app-mockup {
+      max-height: 400px;
+  } */
+}
+
+/* Tabs */
+.btn-primary {
+  border: 2px solid #0145bf!important;
+  background: #0145bf!important;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  border-color: #0275d8!important;
+  background-color: #0275d8!important;
+}
+.classic-tabs.tabs-primary,
+.nav-tabs.tabs-primary {
+  background-color: #0145bf;
+}
+.classic-tabs.tabs-primary li a.active,
+.nav-tabs.tabs-primary li a.active {
+  border-color: #4e9ee4;
+}
+@media (min-width: 62em) {
+  .tab-content {
+      padding-left: 56px;
+      padding-right: 56px;
+      padding-top: 48px;
+  }
+}
+.tab-pane ul li {
+  list-style: disc inside;
+}
+
+/* Cards */
+.tab-content .container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+.rotate-btn {
+  color: #0275d8!important;
+}
+.white-logo img {
+  background: #000;
+  padding: 10px;
+}
+
+/* Footer */
+footer.page-footer {
+  background-color: #464a4c;
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* Typography */
+.small.intro {
+  margin-top: 25px;
+}
+.scrolltext {
+  color: #fff;
+  opacity: 0.5;
+}
