@@ -1,5 +1,5 @@
 ---
-title: Headings
+title: Text Inputs
 ---
 
 [Insert description here]
